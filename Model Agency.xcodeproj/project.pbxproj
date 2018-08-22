@@ -12,6 +12,9 @@
 		BE295469212C7EDA005C63F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE295467212C7EDA005C63F0 /* Main.storyboard */; };
 		BE29546B212C7EDB005C63F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE29546A212C7EDB005C63F0 /* Assets.xcassets */; };
 		BE29546E212C7EDB005C63F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE29546C212C7EDB005C63F0 /* LaunchScreen.storyboard */; };
+		BE3B45FB212DF88A0043F765 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FA212DF88A0043F765 /* User.swift */; };
+		BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FC212DF9AA0043F765 /* Model.swift */; };
+		BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FE212DFAFF0043F765 /* Club.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BE29546A212C7EDB005C63F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE29546D212C7EDB005C63F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE29546F212C7EDB005C63F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3B45FA212DF88A0043F765 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE3B45FC212DF9AA0043F765 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BE3B45FE212DFAFF0043F765 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 		BE295477212C805E005C63F0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BE3B45FA212DF88A0043F765 /* User.swift */,
+				BE3B45FC212DF9AA0043F765 /* Model.swift */,
+				BE3B45FE212DFAFF0043F765 /* Club.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -169,6 +178,9 @@
 			files = (
 				BE295466212C7EDA005C63F0 /* LoginViewController.swift in Sources */,
 				BE295464212C7EDA005C63F0 /* AppDelegate.swift in Sources */,
+				BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */,
+				BE3B45FB212DF88A0043F765 /* User.swift in Sources */,
+				BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
