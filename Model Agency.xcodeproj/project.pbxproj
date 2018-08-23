@@ -15,6 +15,7 @@
 		BE3B45FB212DF88A0043F765 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FA212DF88A0043F765 /* User.swift */; };
 		BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FC212DF9AA0043F765 /* Model.swift */; };
 		BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FE212DFAFF0043F765 /* Club.swift */; };
+		BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B4600212E93370043F765 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BE3B45FA212DF88A0043F765 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE3B45FC212DF9AA0043F765 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BE3B45FE212DFAFF0043F765 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		BE3B4600212E93370043F765 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		BE295478212C8064005C63F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE3B4600212E93370043F765 /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				BE295466212C7EDA005C63F0 /* LoginViewController.swift in Sources */,
 				BE295464212C7EDA005C63F0 /* AppDelegate.swift in Sources */,
+				BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */,
 				BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */,
 				BE3B45FB212DF88A0043F765 /* User.swift in Sources */,
 				BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */,
