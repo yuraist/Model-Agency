@@ -155,15 +155,27 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
   }
   
   private func logIn(username: String, password: String) {
+    let user = User(id: 1, username: username, password: password)
+    User.currentUser = user
     let alert = UIAlertController(title: "Вход", message: "Пользователь \(username) успешно авторизован!", preferredStyle: .alert)
-    alert.addAction(UIAlertAction(title: "Хорошо", style: .default))
+    alert.addAction(UIAlertAction(title: "Хорошо", style: .default) { action in
+      self.showMainViewController()
+    })
     present(alert, animated: true, completion: nil)
   }
   
   private func signUp(username: String, password: String) {
     let alert = UIAlertController(title: "Вход", message: "Пользователь \(username) успешно зарегистрирован!", preferredStyle: .alert)
-    alert.addAction(UIAlertAction(title: "Хорошо", style: .default))
+    alert.addAction(UIAlertAction(title: "Хорошо", style: .default) { action in
+      self.showMainViewController()
+    })
     present(alert, animated: true, completion: nil)
+  }
+  
+  private func showMainViewController() {
+    let destinationController = MainViewController()
+    let navigationController = UINavigationController(rootViewController: destinationController)
+    present(navigationController, animated: true, completion: nil)
   }
   
   @objc private func hideKeyboard() {

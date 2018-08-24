@@ -16,14 +16,23 @@ class User {
   var isRoot = false
   var isAdmin = false
   var models: [Model]?
+  var accessToken: String?
+  
+  static var currentUser: User?
   
   // TODO: - Add photo
   
-  init(id: Int, name: String?, username: String, password: String, isRoot: Bool?, isAdmin: Bool?) {
+  init(id: Int, name: String?, username: String, password: String, isRoot: Bool?, isAdmin: Bool?, accessToken: String?) {
     self.id = id
     self.username = username
     self.password = password
     self.isRoot = isRoot ?? false
     self.isAdmin = isAdmin ?? false 
+  }
+  
+  init(id: Int, username: String, password: String) {
+    self.id = id
+    self.username = username
+    self.password = password
   }
 }
