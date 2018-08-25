@@ -11,8 +11,7 @@ import UIKit
 class MainViewController: UITableViewController {
   
   private let cellId = "mainCell"
-  private let tableViewCellNames = ["Список моделей", "Список менеджеров", "Список клубов",
-                                    "Добавить модель", "Добавить менеджера", "Добавить клуб", "Архив моделей"]
+  private let tableViewCellNames = ["Список моделей", "Список менеджеров", "Список клубов", "Архив моделей"]
   
   override func viewDidLoad() {
     super.viewDidLoad()

@@ -20,6 +20,8 @@
 		BEF03400213044B1008C9F3E /* ModelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF033FF213044B1008C9F3E /* ModelListViewController.swift */; };
 		BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0340121304983008C9F3E /* ManagerListViewController.swift */; };
 		BEF03404213049D1008C9F3E /* ClubListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF03403213049D1008C9F3E /* ClubListViewController.swift */; };
+		BEF0340621313C4E008C9F3E /* ModelProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0340521313C4E008C9F3E /* ModelProfileTableViewCell.swift */; };
+		BEF0340A21314869008C9F3E /* ModelProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0340921314869008C9F3E /* ModelProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		BEF033FF213044B1008C9F3E /* ModelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListViewController.swift; sourceTree = "<group>"; };
 		BEF0340121304983008C9F3E /* ManagerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerListViewController.swift; sourceTree = "<group>"; };
 		BEF03403213049D1008C9F3E /* ClubListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubListViewController.swift; sourceTree = "<group>"; };
+		BEF0340521313C4E008C9F3E /* ModelProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProfileTableViewCell.swift; sourceTree = "<group>"; };
+		BEF0340921314869008C9F3E /* ModelProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 				BE295465212C7EDA005C63F0 /* LoginViewController.swift */,
 				BEF033FD21303FBA008C9F3E /* MainViewController.swift */,
 				BEF033FF213044B1008C9F3E /* ModelListViewController.swift */,
+				BEF0340921314869008C9F3E /* ModelProfileViewController.swift */,
 				BEF0340121304983008C9F3E /* ManagerListViewController.swift */,
 				BEF03403213049D1008C9F3E /* ClubListViewController.swift */,
 			);
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				BE3B4600212E93370043F765 /* CustomTextField.swift */,
+				BEF0340521313C4E008C9F3E /* ModelProfileTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,10 +200,12 @@
 				BEF033FE21303FBA008C9F3E /* MainViewController.swift in Sources */,
 				BE295466212C7EDA005C63F0 /* LoginViewController.swift in Sources */,
 				BE295464212C7EDA005C63F0 /* AppDelegate.swift in Sources */,
+				BEF0340621313C4E008C9F3E /* ModelProfileTableViewCell.swift in Sources */,
 				BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */,
 				BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */,
 				BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */,
 				BE3B45FB212DF88A0043F765 /* User.swift in Sources */,
+				BEF0340A21314869008C9F3E /* ModelProfileViewController.swift in Sources */,
 				BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */,
 				BEF03404213049D1008C9F3E /* ClubListViewController.swift in Sources */,
 				BEF03400213044B1008C9F3E /* ModelListViewController.swift in Sources */,

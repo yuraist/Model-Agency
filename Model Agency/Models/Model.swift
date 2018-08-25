@@ -22,11 +22,19 @@ class Model {
   var manager: User?
   var club: Club?
   
-  // TODO: - Add photo
+  var avatarImageUrl: URL?
+  var galleryImageUrl: [URL]?
+  
+  init(id: Int, fullName: String, dateOfBirth: Date, city: String) {
+    self.id = id
+    self.fullName = fullName
+    self.dateOfBirth = dateOfBirth
+    self.city = city
+  }
   
   init(id: Int, fullName: String, dateOfBirth: Date, city: String, phone: String?,
        departureDate: Date?, startDate: Date?, ticketPrice: Float?, isAccepted: Bool,
-       period: Int?, manager: User?, club: Club?) {
+       period: Int?, manager: User?, club: Club?, avatarImageUrl: URL?) {
     self.id = id
     self.fullName = fullName
     self.dateOfBirth = dateOfBirth

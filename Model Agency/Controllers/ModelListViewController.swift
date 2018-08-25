@@ -17,9 +17,14 @@ class ModelListViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   
-    navigationItem.title = "Модели"
+    getModels()
     
+    navigationItem.title = "Модели"
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
+  }
+  
+  private func getModels() {
+    models.append(Model(id: 1, fullName: "Стецюк Екатерина Витальевна", dateOfBirth: Date(timeIntervalSince1970: 635933763), city: "Иркутск"))
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,4 +41,10 @@ class ModelListViewController: UITableViewController {
     return cell
   }
   
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let model = models[indexPath.row]
+    let destinationViewController = ModelProfileViewController()
+    destinationViewController.model = model
+    show(destinationViewController, sender: self)
+  }
 }
