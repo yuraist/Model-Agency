@@ -17,9 +17,14 @@ class ManagerListViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    navigationItem.title = "Менеджеры"
+    getManagers()
     
+    navigationItem.title = "Менеджеры"
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
+  }
+  
+  private func getManagers() {
+    managers.append(User.currentUser!)
   }
   
   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -40,5 +45,11 @@ class ManagerListViewController: UITableViewController {
     return cell
   }
   
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    let manager = managers[indexPath.row]
+    let destinationViewController = ManagerProfileTableViewController()
+    destinationViewController.manager = manager
+    show(destinationViewController, sender: self)
+  }
 }
 

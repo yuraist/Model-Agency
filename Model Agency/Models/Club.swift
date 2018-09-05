@@ -11,13 +11,11 @@ import UIKit
 class Club {
   var id: Int
   var name: String
-  var city: String
   var models: [Model]?
   
   init(id: Int, name: String, city: String, models: [Model]?) {
     self.id = id
     self.name = name
-    self.city = city
     self.models = models
   }
 }

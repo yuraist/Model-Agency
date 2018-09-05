@@ -16,6 +16,9 @@
 		BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FC212DF9AA0043F765 /* Model.swift */; };
 		BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B45FE212DFAFF0043F765 /* Club.swift */; };
 		BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B4600212E93370043F765 /* CustomTextField.swift */; };
+		BE842B0E213FDC3100DEEC54 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */; };
+		BE842B10213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */; };
+		BE842B12213FF37500DEEC54 /* ManagerProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */; };
 		BEF033FE21303FBA008C9F3E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF033FD21303FBA008C9F3E /* MainViewController.swift */; };
 		BEF03400213044B1008C9F3E /* ModelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF033FF213044B1008C9F3E /* ModelListViewController.swift */; };
 		BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0340121304983008C9F3E /* ManagerListViewController.swift */; };
@@ -36,6 +39,9 @@
 		BE3B45FC212DF9AA0043F765 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BE3B45FE212DFAFF0043F765 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
 		BE3B4600212E93370043F765 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProfileTableViewCell.swift; sourceTree = "<group>"; };
+		BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProfileTableViewController.swift; sourceTree = "<group>"; };
 		BEF033FD21303FBA008C9F3E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BEF033FF213044B1008C9F3E /* ModelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListViewController.swift; sourceTree = "<group>"; };
 		BEF0340121304983008C9F3E /* ManagerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerListViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,7 @@
 				BEF033FF213044B1008C9F3E /* ModelListViewController.swift */,
 				BEF0340921314869008C9F3E /* ModelProfileViewController.swift */,
 				BEF0340121304983008C9F3E /* ManagerListViewController.swift */,
+				BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */,
 				BEF03403213049D1008C9F3E /* ClubListViewController.swift */,
 			);
 			path = Controllers;
@@ -122,6 +129,8 @@
 			children = (
 				BE3B4600212E93370043F765 /* CustomTextField.swift */,
 				BEF0340521313C4E008C9F3E /* ModelProfileTableViewCell.swift */,
+				BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */,
+				BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,10 +209,13 @@
 				BEF033FE21303FBA008C9F3E /* MainViewController.swift in Sources */,
 				BE295466212C7EDA005C63F0 /* LoginViewController.swift in Sources */,
 				BE295464212C7EDA005C63F0 /* AppDelegate.swift in Sources */,
+				BE842B0E213FDC3100DEEC54 /* DetailTableViewCell.swift in Sources */,
 				BEF0340621313C4E008C9F3E /* ModelProfileTableViewCell.swift in Sources */,
 				BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */,
 				BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */,
+				BE842B10213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift in Sources */,
 				BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */,
+				BE842B12213FF37500DEEC54 /* ManagerProfileTableViewController.swift in Sources */,
 				BE3B45FB212DF88A0043F765 /* User.swift in Sources */,
 				BEF0340A21314869008C9F3E /* ModelProfileViewController.swift in Sources */,
 				BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */,
