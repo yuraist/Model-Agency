@@ -20,6 +20,7 @@ class ModelListViewController: UITableViewController {
     getModels()
     
     navigationItem.title = "Модели"
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Добавить модель", style: .plain, target: self, action: #selector(addNewModel))
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
   }
   
@@ -46,5 +47,10 @@ class ModelListViewController: UITableViewController {
     let destinationViewController = ModelProfileViewController()
     destinationViewController.model = model
     show(destinationViewController, sender: self)
+  }
+  
+  @objc private func addNewModel() {
+    let newModelViewController = NewModelTableViewController()
+    show(newModelViewController, sender: self)
   }
 }

@@ -19,6 +19,12 @@
 		BE842B0E213FDC3100DEEC54 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */; };
 		BE842B10213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */; };
 		BE842B12213FF37500DEEC54 /* ManagerProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */; };
+		BE842B142140D7FF00DEEC54 /* ClubTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B132140D7FF00DEEC54 /* ClubTableViewController.swift */; };
+		BE842B162141286E00DEEC54 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B152141286E00DEEC54 /* TextFieldTableViewCell.swift */; };
+		BE842B1821417F6D00DEEC54 /* NewModelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B1721417F6D00DEEC54 /* NewModelTableViewController.swift */; };
+		BE842B1A2141823C00DEEC54 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B192141823C00DEEC54 /* ButtonTableViewCell.swift */; };
+		BE842B1C2141830600DEEC54 /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B1B2141830600DEEC54 /* PickerTableViewCell.swift */; };
+		BE842B1E2141836F00DEEC54 /* SegmentedControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE842B1D2141836F00DEEC54 /* SegmentedControlTableViewCell.swift */; };
 		BEF033FE21303FBA008C9F3E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF033FD21303FBA008C9F3E /* MainViewController.swift */; };
 		BEF03400213044B1008C9F3E /* ModelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF033FF213044B1008C9F3E /* ModelListViewController.swift */; };
 		BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF0340121304983008C9F3E /* ManagerListViewController.swift */; };
@@ -42,6 +48,12 @@
 		BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
 		BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProfileTableViewCell.swift; sourceTree = "<group>"; };
 		BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProfileTableViewController.swift; sourceTree = "<group>"; };
+		BE842B132140D7FF00DEEC54 /* ClubTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubTableViewController.swift; sourceTree = "<group>"; };
+		BE842B152141286E00DEEC54 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		BE842B1721417F6D00DEEC54 /* NewModelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewModelTableViewController.swift; sourceTree = "<group>"; };
+		BE842B192141823C00DEEC54 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		BE842B1B2141830600DEEC54 /* PickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		BE842B1D2141836F00DEEC54 /* SegmentedControlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlTableViewCell.swift; sourceTree = "<group>"; };
 		BEF033FD21303FBA008C9F3E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BEF033FF213044B1008C9F3E /* ModelListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListViewController.swift; sourceTree = "<group>"; };
 		BEF0340121304983008C9F3E /* ManagerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerListViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +121,9 @@
 				BEF0340921314869008C9F3E /* ModelProfileViewController.swift */,
 				BEF0340121304983008C9F3E /* ManagerListViewController.swift */,
 				BE842B11213FF37500DEEC54 /* ManagerProfileTableViewController.swift */,
+				BE842B1721417F6D00DEEC54 /* NewModelTableViewController.swift */,
 				BEF03403213049D1008C9F3E /* ClubListViewController.swift */,
+				BE842B132140D7FF00DEEC54 /* ClubTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -130,6 +144,10 @@
 				BE3B4600212E93370043F765 /* CustomTextField.swift */,
 				BEF0340521313C4E008C9F3E /* ModelProfileTableViewCell.swift */,
 				BE842B0D213FDC3100DEEC54 /* DetailTableViewCell.swift */,
+				BE842B152141286E00DEEC54 /* TextFieldTableViewCell.swift */,
+				BE842B1B2141830600DEEC54 /* PickerTableViewCell.swift */,
+				BE842B192141823C00DEEC54 /* ButtonTableViewCell.swift */,
+				BE842B1D2141836F00DEEC54 /* SegmentedControlTableViewCell.swift */,
 				BE842B0F213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift */,
 			);
 			path = Views;
@@ -211,16 +229,22 @@
 				BE295464212C7EDA005C63F0 /* AppDelegate.swift in Sources */,
 				BE842B0E213FDC3100DEEC54 /* DetailTableViewCell.swift in Sources */,
 				BEF0340621313C4E008C9F3E /* ModelProfileTableViewCell.swift in Sources */,
+				BE842B162141286E00DEEC54 /* TextFieldTableViewCell.swift in Sources */,
+				BE842B1821417F6D00DEEC54 /* NewModelTableViewController.swift in Sources */,
+				BE842B142140D7FF00DEEC54 /* ClubTableViewController.swift in Sources */,
 				BE3B4601212E93370043F765 /* CustomTextField.swift in Sources */,
 				BE3B45FF212DFAFF0043F765 /* Club.swift in Sources */,
 				BE842B10213FEE6100DEEC54 /* ManagerProfileTableViewCell.swift in Sources */,
+				BE842B1A2141823C00DEEC54 /* ButtonTableViewCell.swift in Sources */,
 				BEF0340221304983008C9F3E /* ManagerListViewController.swift in Sources */,
 				BE842B12213FF37500DEEC54 /* ManagerProfileTableViewController.swift in Sources */,
 				BE3B45FB212DF88A0043F765 /* User.swift in Sources */,
 				BEF0340A21314869008C9F3E /* ModelProfileViewController.swift in Sources */,
+				BE842B1E2141836F00DEEC54 /* SegmentedControlTableViewCell.swift in Sources */,
 				BE3B45FD212DF9AA0043F765 /* Model.swift in Sources */,
 				BEF03404213049D1008C9F3E /* ClubListViewController.swift in Sources */,
 				BEF03400213044B1008C9F3E /* ModelListViewController.swift in Sources */,
+				BE842B1C2141830600DEEC54 /* PickerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

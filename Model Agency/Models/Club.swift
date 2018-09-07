@@ -13,7 +13,7 @@ class Club {
   var name: String
   var models: [Model]?
   
-  init(id: Int, name: String, city: String, models: [Model]?) {
+  init(id: Int, name: String, models: [Model]?) {
     self.id = id
     self.name = name
     self.models = models
