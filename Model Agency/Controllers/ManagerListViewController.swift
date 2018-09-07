@@ -20,6 +20,8 @@ class ManagerListViewController: UITableViewController {
     getManagers()
     
     navigationItem.title = "Менеджеры"
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Добавить менеджера", style: .plain, target: self, action: #selector(addNewManager))
+    
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
   }
   
@@ -50,6 +52,10 @@ class ManagerListViewController: UITableViewController {
     let destinationViewController = ManagerProfileTableViewController()
     destinationViewController.manager = manager
     show(destinationViewController, sender: self)
+  }
+  
+  @objc private func addNewManager() {
+    show(NewManagerTableViewController(), sender: self)
   }
 }
 

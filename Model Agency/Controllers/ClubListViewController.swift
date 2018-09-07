@@ -12,7 +12,11 @@ class ClubListViewController: UITableViewController {
   
   private let cellId = "clubListCell"
   
-  var clubs = [Club]()
+  var clubs = [Club]() {
+    didSet {
+      tableView.reloadData()
+    }
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -20,6 +24,8 @@ class ClubListViewController: UITableViewController {
     getClubs()
     
     navigationItem.title = "Клубы"
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Добавить клуб", style: .plain, target: self, action: #selector(addNewClub))
+    
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
   }
   
@@ -46,6 +52,19 @@ class ClubListViewController: UITableViewController {
     let destinationViewController = ClubTableViewController()
     destinationViewController.club = club
     show(destinationViewController, sender: self)
+  }
+  
+  @objc private func addNewClub() {
+    let alertController = UIAlertController(title: "Новый клуб", message: "Введите название", preferredStyle: .alert)
+    alertController.addTextField { (textField) in
+      textField.placeholder = "Название клуба"
+    }
+    
+    alertController.addAction(UIAlertAction(title: "Сохранить", style: .default, handler: { (action) in
+      self.clubs.append(Club(id: 1, name: alertController.textFields?.first?.text ?? "", models: nil))
+    }))
+    alertController.addAction(UIAlertAction(title: "Отменить", style: .cancel, handler: nil))
+    present(alertController, animated: true, completion: nil)
   }
 }
 
